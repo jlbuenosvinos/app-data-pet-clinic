@@ -136,8 +136,6 @@
 
     <build>
         <plugins>
-
-            <!--
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
@@ -147,8 +145,6 @@
                     <projectId>GCLOUD_CONFIG</projectId>
                 </configuration>
             </plugin>
-            -->
-
             <plugin>
                 <groupId>io.spring.javaformat</groupId>
                 <artifactId>spring-javaformat-maven-plugin</artifactId>
