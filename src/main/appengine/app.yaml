@@ -1,3 +1,13 @@
-runtime: java11
-instance_class: F1
+#runtime: java11
+#instance_class: F1
 #service: data-petclinic
+runtime: java
+env: flex
+
+resources:
+  memory_gb: 2.3
+
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
+
