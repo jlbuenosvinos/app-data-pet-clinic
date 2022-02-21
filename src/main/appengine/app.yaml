@@ -1,8 +1,11 @@
 #runtime: java11
 #instance_class: F1
 #service: data-petclinic
-runtime: java11
-#env: flex
+runtime: java
+env: flex
+
+resources:
+  memory_gb: 2.3
 
 handlers:
   - url: /.*
