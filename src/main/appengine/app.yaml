@@ -1,4 +1,5 @@
 instance_class: F4
+service: data-petclinic
 runtime: java11
 #env: flex
 
